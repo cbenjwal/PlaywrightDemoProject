@@ -1,0 +1,134 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img "logo" [ref=e7] [cursor=pointer]
+        - heading "Learn Automation Courses" [level=1] [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - button "Cart" [ref=e10] [cursor=pointer]
+        - generic [ref=e11]:
+          - generic [ref=e12] [cursor=pointer]: Manage
+          - generic [ref=e13]:
+            - link "manage course Manage Courses" [active] [ref=e14] [cursor=pointer]:
+              - /url: /course/manage
+              - img "manage course" [ref=e15] [cursor=pointer]
+              - text: Manage Courses
+            - link "manage category Manage Categories" [ref=e16] [cursor=pointer]:
+              - /url: /category/manage
+              - img "manage category" [ref=e17] [cursor=pointer]
+              - text: Manage Categories
+        - img "menu" [ref=e18] [cursor=pointer]
+        - generic [ref=e19]:
+          - generic [ref=e20]:
+            - text: Learn Automation Courses
+            - img "delete" [ref=e21] [cursor=pointer]
+          - generic [ref=e22]:
+            - link "Home" [ref=e23] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e24] [cursor=pointer]: Home
+            - link "Practise" [ref=e25] [cursor=pointer]:
+              - /url: /practise
+              - generic [ref=e26] [cursor=pointer]: Practise
+            - button "Sign out" [ref=e27] [cursor=pointer]
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - heading "manage course Manage Courses" [level=1] [ref=e31]:
+        - img "manage course" [ref=e32]
+        - text: Manage Courses
+      - generic [ref=e33]:
+        - textbox "Search by course name, instructor name or category" [ref=e34]
+        - combobox [ref=e35]:
+          - option "Name"
+          - option "Instructor Name"
+          - option "Price"
+      - generic [ref=e36]:
+        - button "Delete Courses delete" [ref=e37] [cursor=pointer]:
+          - text: Delete Courses
+          - img "delete" [ref=e38] [cursor=pointer]
+        - button "Activate Courses activate" [ref=e39] [cursor=pointer]:
+          - text: Activate Courses
+          - img "activate" [ref=e40] [cursor=pointer]
+        - button "Deactivate Courses deactivate" [ref=e41] [cursor=pointer]:
+          - text: Deactivate Courses
+          - img "deactivate" [ref=e42] [cursor=pointer]
+        - button "Add New Course add" [ref=e43] [cursor=pointer]:
+          - text: Add New Course
+          - img "add" [ref=e44] [cursor=pointer]
+    - table [ref=e46]:
+      - rowgroup [ref=e47]:
+        - row "Course Name Course Price Instructor Name Start Date End Date Active Category Enroll Count Thumbnail Download Delete" [ref=e48]:
+          - cell [ref=e49]
+          - cell "Course Name" [ref=e50]
+          - cell "Course Price" [ref=e51]
+          - cell "Instructor Name" [ref=e52]
+          - cell "Start Date" [ref=e53]
+          - cell "End Date" [ref=e54]
+          - cell "Active" [ref=e55]
+          - cell "Category" [ref=e56]
+          - cell "Enroll Count" [ref=e57]
+          - cell "Thumbnail" [ref=e58]
+          - cell "Download" [ref=e59]
+          - cell "Delete" [ref=e60]
+      - rowgroup [ref=e61]:
+        - row "Selenium For Web Automation ₹1500 Mukesh Otwani 2/16/2025 3/16/2025 activate None 0 thumbnail download" [ref=e62]:
+          - cell [ref=e63]
+          - cell "Selenium For Web Automation" [ref=e64]
+          - cell "₹1500" [ref=e65]:
+            - generic [ref=e66]: ₹1500
+          - cell "Mukesh Otwani" [ref=e67]
+          - cell "2/16/2025" [ref=e68]
+          - cell "3/16/2025" [ref=e69]
+          - cell "activate" [ref=e70]:
+            - img "activate" [ref=e71]
+          - cell "None" [ref=e72]:
+            - generic [ref=e73]: None
+          - cell "0" [ref=e74]
+          - cell "thumbnail" [ref=e75]:
+            - img "thumbnail" [ref=e76]
+          - cell "download" [ref=e77]:
+            - link "download" [ref=e78] [cursor=pointer]:
+              - /url: https://learn-automation.onrender.com/api/course/thumbnail/67b2abd3289e9e7395cbd866
+              - img "download" [ref=e79] [cursor=pointer]
+          - cell [ref=e80]
+        - row "Java For Tester ₹500 Mukesh Otwani 2/16/2025 3/16/2025 activate None 0 thumbnail download" [ref=e81]:
+          - cell [ref=e82]
+          - cell "Java For Tester" [ref=e83]
+          - cell "₹500" [ref=e84]:
+            - generic [ref=e85]: ₹500
+          - cell "Mukesh Otwani" [ref=e86]
+          - cell "2/16/2025" [ref=e87]
+          - cell "3/16/2025" [ref=e88]
+          - cell "activate" [ref=e89]:
+            - img "activate" [ref=e90]
+          - cell "None" [ref=e91]:
+            - generic [ref=e92]: None
+          - cell "0" [ref=e93]
+          - cell "thumbnail" [ref=e94]:
+            - img "thumbnail" [ref=e95]
+          - cell "download" [ref=e96]:
+            - link "download" [ref=e97] [cursor=pointer]:
+              - /url: https://learn-automation.onrender.com/api/course/thumbnail/67b2abb5289e9e7395cbd85f
+              - img "download" [ref=e98] [cursor=pointer]
+          - cell [ref=e99]
+    - button "Load More" [ref=e100] [cursor=pointer]
+  - generic [ref=e102]:
+    - generic [ref=e103]:
+      - heading "Learn Automation By Mukesh Otwani" [level=3] [ref=e104]
+      - heading "©2023 All rights reserved" [level=2] [ref=e105]
+    - generic [ref=e106] [cursor=pointer]:
+      - link [ref=e107] [cursor=pointer]:
+        - /url: https://youtube.com/MukeshOtwani
+        - img [ref=e108] [cursor=pointer]
+      - link [ref=e111] [cursor=pointer]:
+        - /url: https://twitter.com/MukeshOtwani
+        - img [ref=e112] [cursor=pointer]
+      - link [ref=e114] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+        - img [ref=e115] [cursor=pointer]
+      - link [ref=e117] [cursor=pointer]:
+        - /url: https://www.facebook.com/groups/256655817858291
+        - img [ref=e118] [cursor=pointer]
+```

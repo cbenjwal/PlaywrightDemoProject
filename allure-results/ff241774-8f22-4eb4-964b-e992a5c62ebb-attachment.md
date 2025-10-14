@@ -1,0 +1,69 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - navigation [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6] [cursor=pointer]:
+        - img "logo" [ref=e7] [cursor=pointer]
+        - heading "Learn Automation Courses" [level=1] [ref=e8] [cursor=pointer]
+      - generic [ref=e9]:
+        - img "menu" [ref=e10] [cursor=pointer]
+        - generic [ref=e11]:
+          - generic [ref=e12]:
+            - text: Learn Automation Courses
+            - img "delete" [ref=e13] [cursor=pointer]
+          - generic [ref=e14]:
+            - link "Home" [ref=e15] [cursor=pointer]:
+              - /url: /
+              - generic [ref=e16] [cursor=pointer]: Home
+            - link "Practise" [ref=e17] [cursor=pointer]:
+              - /url: /practise
+              - generic [ref=e18] [cursor=pointer]: Practise
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - img "Login"
+    - generic [ref=e22]:
+      - generic [ref=e24]:
+        - heading "Sign In" [level=2] [ref=e25]
+        - textbox "Enter Email" [ref=e26]
+        - textbox "Enter Password" [ref=e27]
+        - button "Sign in" [ref=e28] [cursor=pointer]
+        - link "New user? Signup" [ref=e29] [cursor=pointer]:
+          - /url: /signup
+      - generic [ref=e30]:
+        - heading "Connect with us" [level=2] [ref=e31]
+        - generic [ref=e32] [cursor=pointer]:
+          - link [ref=e33] [cursor=pointer]:
+            - /url: https://youtube.com/MukeshOtwani
+            - img [ref=e34] [cursor=pointer]
+          - link [ref=e37] [cursor=pointer]:
+            - /url: https://twitter.com/MukeshOtwani
+            - img [ref=e38] [cursor=pointer]
+          - link [ref=e40] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+            - img [ref=e41] [cursor=pointer]
+          - link [ref=e43] [cursor=pointer]:
+            - /url: https://www.facebook.com/groups/256655817858291
+            - img [ref=e44] [cursor=pointer]
+          - link [ref=e46] [cursor=pointer]:
+            - /url: https://learn-automation/reddit
+            - img [ref=e47] [cursor=pointer]
+  - generic [ref=e61]:
+    - generic [ref=e62]:
+      - heading "Learn Automation By Mukesh Otwani" [level=3] [ref=e63]
+      - heading "©2023 All rights reserved" [level=2] [ref=e64]
+    - generic [ref=e65] [cursor=pointer]:
+      - link [ref=e66] [cursor=pointer]:
+        - /url: https://youtube.com/MukeshOtwani
+        - img [ref=e67] [cursor=pointer]
+      - link [ref=e70] [cursor=pointer]:
+        - /url: https://twitter.com/MukeshOtwani
+        - img [ref=e71] [cursor=pointer]
+      - link [ref=e73] [cursor=pointer]:
+        - /url: https://www.linkedin.com/in/mukesh-otwani-93631b99/
+        - img [ref=e74] [cursor=pointer]
+      - link [ref=e76] [cursor=pointer]:
+        - /url: https://www.facebook.com/groups/256655817858291
+        - img [ref=e77] [cursor=pointer]
+```

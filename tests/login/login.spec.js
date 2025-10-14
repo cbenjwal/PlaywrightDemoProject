@@ -30,5 +30,6 @@ test.skip("Login Scenario without fixture",async function({page})
     await loginPage.fillPassword("admin@123")
 
     await loginPage.submit()
+    await page.waitForTimeout(5000)
     
 })

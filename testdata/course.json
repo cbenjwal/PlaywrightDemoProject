@@ -1,0 +1,11 @@
+
+    {
+        "thumbnail": "testdata/course1.jpg",
+        "name": "JavaScript Fundamentals",
+        "description": "Learn the basics of JavaScript programming language",
+        "instructorName": "John Smith",
+        "price": "499",
+        "startDate": "2024-02-01",
+        "endDate": "2024-03-31",
+        "category": "AWS" 
+    }

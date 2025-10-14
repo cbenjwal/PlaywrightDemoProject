@@ -1,0 +1,8 @@
+Cypress
+Course "JavaScript Fundamentals" added and deleted successfully.
+Cypress
+AWS
+Course "AWS Bootcamp" added and deleted successfully.
+Cypress
+AWS
+SQL

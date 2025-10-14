@@ -49,7 +49,8 @@ export const test=base.extend(
                 console.log("Running After Test For JSON File");
                 
                 
-            },
-    }
+            }
+ }
 
 )
+export const expect = test.expect;
