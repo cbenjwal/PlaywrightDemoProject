@@ -1,4 +1,4 @@
-# Playwright Demo Project
+# Playwright Demo Project for practice
 
 This is a JavaScript-based automation testing project built using **Playwright**.  
 It demonstrates a complete end-to-end test framework design including **Page Object Model (POM)**, **data-driven testing**, reusable utilities, and **Allure reporting**.
